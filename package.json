@@ -1,0 +1,18 @@
+{
+  "name": "simpleengine",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm ci && parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.2",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@myob-fma/hex-renderer": "^1.1.2",
+    "tslib": "^1.9.3"
+  }
+}
